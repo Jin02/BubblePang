@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C15AD391822246F005B5E91 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C15AD381822246F005B5E91 /* CoreMotion.framework */; };
 		8690B466145044B000C191F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8690B465145044B000C191F6 /* QuartzCore.framework */; };
 		8690B468145044B000C191F6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8690B467145044B000C191F6 /* OpenGLES.framework */; };
 		8690B46A145044B000C191F6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8690B469145044B000C191F6 /* OpenAL.framework */; };
@@ -214,6 +215,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C15AD381822246F005B5E91 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		8690B461145044B000C191F6 /* BubblePang_iOS5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePang_iOS5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8690B465145044B000C191F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8690B467145044B000C191F6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -586,6 +588,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C15AD391822246F005B5E91 /* CoreMotion.framework in Frameworks */,
 				8690B466145044B000C191F6 /* QuartzCore.framework in Frameworks */,
 				8690B468145044B000C191F6 /* OpenGLES.framework in Frameworks */,
 				8690B46A145044B000C191F6 /* OpenAL.framework in Frameworks */,
@@ -620,6 +623,7 @@
 		8690B464145044B000C191F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C15AD381822246F005B5E91 /* CoreMotion.framework */,
 				8690B465145044B000C191F6 /* QuartzCore.framework */,
 				8690B467145044B000C191F6 /* OpenGLES.framework */,
 				8690B469145044B000C191F6 /* OpenAL.framework */,
@@ -1462,10 +1466,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BubblePand_iOS5/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = BubblePand_iOS5/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = BubblePang_iOS5;
 				USER_HEADER_SEARCH_PATHS = "\"BubblePand_iOS5/libs/Chipmunk/include/chipmunk\"";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1478,6 +1484,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BubblePand_iOS5/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = BubblePand_iOS5/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = BubblePang_iOS5;
